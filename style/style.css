@@ -1,0 +1,90 @@
+/*===========Global===========*/
+body {
+  margin: 2%;
+  font-family: sans-serif;
+  background-color: #f5f5f5f5;
+  border: 1px solid #a0522d;
+}
+
+/*===========header===========*/
+header img{
+  width: 15%;
+  display: inline-block;
+}
+.header{
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid #a0522d;
+
+}
+nav a{
+  text-align: center;
+  padding: 1% 1%;
+  float: right;
+}
+/*===========aside===========*/
+hr{
+  width: 70%;
+  border: solid #a0522d;
+  border-top: 5px;
+  margin-left: 0;
+
+}
+.aside_index{
+  border-bottom: 0;
+  float: left;
+  text-align: center;
+  display: block;
+  width: 15%;
+  overflow: visible;
+  padding-right:.8%;
+}
+.aside_index ul{
+  list-style-type:none;
+  padding-left: 0;
+}
+.aside_index li{
+  padding: 2% 0 2% 0;
+  margin-bottom: 30%;
+}
+/*===========main===========*/
+main {
+  clear: both;
+}
+.main_part{
+  float:right;
+  width:84%;
+}
+.part_h2{
+  text-transform: uppercase;
+  background-color: #a0522d;
+  color: white;
+  padding: 1%;
+  margin-top:0;
+  margin-bottom: 0;
+}
+/*element*/
+.element{
+  border: 3px solid #a0522d;
+  margin: 2%;
+  background-color: white;
+
+}
+.element img{
+  width: 60%;
+  display:block;
+  margin: 3% auto 1% auto;
+}
+.flex-container{
+  display: flex;
+  border: 1px solid #a0522d;
+
+}
+/*===========footer===========*/
+.footer{
+  text-align: center;
+  clear: both;
+  background-color: white;
+  border-top: 1px solid #a0522d;
+  padding: 3%;
+}

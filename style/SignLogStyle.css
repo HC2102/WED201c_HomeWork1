@@ -1,0 +1,104 @@
+body{
+  margin:2%;
+}
+/*item*/
+.item-container{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 5%;
+  padding-bottom: 1%;
+  margin: 0 auto;
+}
+.left,.right{
+  display: inline-block;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 2%;
+}
+.active{
+  color: #a52a2a;
+}
+/*navigation styling*/
+header img{
+  width: 15%;
+  display: inline-block;
+}
+.header{
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #a52a2a;
+}
+nav a{
+  text-align: center;
+  padding: 1% 1%;
+  float: right;
+}
+/*outside*/
+.outside{
+  background-color: #f0f0f0f0;
+  padding: 5% 0;
+}
+/*inside*/
+.inside{
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  background-color: #ffffff;
+  width: 45%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+/* Full-width input fields */
+.form-container{
+  clear: both;
+  width:80%;
+  margin: 5% auto;
+}
+input[type=text], input[type=password]{
+  width:96%;
+  padding: 15px;
+  margin: 5px 0 15px;
+  display: block;
+  border: none;
+  border-radius: 7px;
+  background-color:#f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus{
+  background-color:#ddd;
+  outline: none;
+}
+/*Set styles for the cancel button*/
+button{
+  color: white;
+  display: block;
+  padding: 14px 20px;
+  margin: 18px auto 23px;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+  opacity: 0.9;
+  font-size: 1em;
+  border-radius: 10px;
+  -webkit-border-radius-: 10px;
+}
+button:hover{
+  opacity: 1;
+}
+.SignIn{
+  background-color:#a52a2a;
+}
+.FBLogIn{
+  background-color:#3b5998;
+}
+.ZLLogin{
+  background-color:#009dff;
+}
+.footer{
+  text-align: center;
+}
+.SignUp{
+  background-color:#a52a2a;
+}
